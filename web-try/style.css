@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #1a8ecc;
+    padding: 13px;
+    text-align: center;
+}
+
+body{
+    background-color: #c2bac4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body h1{
+    text-align: center;
+    color: #fff;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+footer{
+    background-color: #1a8ecc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

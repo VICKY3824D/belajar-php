@@ -1,0 +1,1 @@
+a:5:{i:0;a:3:{s:6:"Barang";s:6:"Pensil";s:5:"Harga";i:2000;s:4:"Stok";i:5;}i:1;a:3:{s:6:"Barang";s:4:"Buku";s:5:"Harga";i:15000;s:4:"Stok";i:7;}i:2;a:3:{s:6:"Barang";s:9:"Penghapus";s:5:"Harga";i:1000;s:4:"Stok";i:10;}i:3;a:3:{s:6:"Barang";s:6:"Spidol";s:5:"Harga";i:5000;s:4:"Stok";i:13;}i:4;a:3:{s:6:"Barang";s:6:"Kertas";s:5:"Harga";i:3000;s:4:"Stok";i:20;}}
