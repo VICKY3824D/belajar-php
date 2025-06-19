@@ -14,7 +14,7 @@ function getGenap(int $max): Iterator{
 //     echo $value . PHP_EOL;
 // }
 
-function getGanjil(int $max) {
+function getGanjil(int $max): Generator {
     for ($i = 0; $i <= $max; $i++) {
         if ($i % 2 == 1) {
            yield $i;

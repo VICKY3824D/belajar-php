@@ -1,5 +1,7 @@
 <?php 
 
+//important to implement IteratorAggregate for custom iteration
+
 class data implements IteratorAggregate {
     var string $first = 'first';
     public string $second = 'second';

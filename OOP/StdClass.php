@@ -29,7 +29,7 @@ $person->setId(10);
 
 $arrayPerson = (array) $person;
 
-echo "<br>Person Object to Array:<br>";
+echo "\nPerson Object to Array:\n";
 print_r($arrayPerson);
 
 
