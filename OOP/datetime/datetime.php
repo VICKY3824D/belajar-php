@@ -11,17 +11,22 @@ $datetime = new DateTime();
 // + 1 day
 $datetime->add(new DateInterval("P1D"));
 
-// + 2 month
-$datetime->add(new DateInterval("P2M"));
+// + 3 month
+// $datetime->add(new DateInterval("P3M"));
 
+$dateInterval = new DateInterval("P1M");
+// $dateInterval->invert = true;
 
-$dateInterval = new DateInterval("P3M");
-$dateInterval->invert = true;
+// - 1 month 
+// $datetime->add($dateInterval);
 
-// - 3 month 
-$datetime->add($dateInterval);
+// Subtracts an amount of days, months, years, hours, minutes and seconds
+// https://www.php.net/manual/en/datetimeimmutable.sub.php
 
-var_dump($datetime);
+// -1 month
+$datetime->sub($dateInterval);
+
+// var_dump($datetime);
 
 // format date to string
 $strDate = $datetime->format("Y-m-d H:i:s");
@@ -32,9 +37,11 @@ echo "Current time : $strDate " . PHP_EOL;
 
 $dateInput = DateTime::createFromFormat("Y-m-d H:i:s", $strDate, new DateTimeZone("Asia/Jakarta"));
 
-if($dateInput){
-    var_dump($dateInput);
-} else {
-    echo "Format salah" . PHP_EOL;
-}
+// if($dateInput){
+//     var_dump($dateInput);
+// } else {
+//     echo "Format salah" . PHP_EOL;
+// }
 ?>
+
+<!-- https://www.php.net/manual/en/datetimeimmutable.createfromformat.php -->

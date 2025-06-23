@@ -8,6 +8,8 @@ $loginRequest = new LoginRequest();
 $loginRequest->username = " ";
 $loginRequest->password = " ";
 
+// https://www.php.net/manual/en/class.exception.php
+
 // try {
 //     validateLoginRequest($loginRequest);
 //     echo "VALID" . PHP_EOL;
