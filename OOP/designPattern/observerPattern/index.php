@@ -41,7 +41,7 @@ class Whatsapp implements Observer {
  * Represents a user in the system.
  * The `register()` method simulates user registration.
  */
-class User {
+class UserRegister {
     public function register() {
         echo "User registered successfully!" . PHP_EOL;
     }
@@ -80,7 +80,7 @@ class UserObserver {
 // --- Example Usage ---
 
 // Create a new user and register them
-$user = new User();
+$user = new UserRegister();
 $user->register();
 
 // Create a user observer and attach multiple notification services
