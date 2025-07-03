@@ -15,6 +15,7 @@ class EmoticonParser{
     public function getContent(){
         
         // Nah disini class methodnya kita semacam override, dengan method yang sama kita tambahkan fungsionalitas Emoticon.
+        
         // Panggil parseEmoticon.
 
         return $this->parseEmoticon($this->content->getContent());
